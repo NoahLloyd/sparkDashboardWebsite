@@ -1,0 +1,127 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --dark: #00002b;
+  --light: #f59e0b;
+  --white: white;
+  --black: black;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+  object-fit: contain;
+  object-position: center;
+}
+
+.intro {
+  text-align: left;
+  display: flex;
+  justify-content: space-around;
+  width: 80%;
+  margin: 5rem auto;
+  margin-bottom: 10rem;
+}
+
+.intro--text {
+  margin-bottom: 4rem;
+}
+
+.title {
+  line-height: 110%;
+  font-size: 5rem;
+  margin: 0;
+}
+
+.title--explanation {
+  font-size: 1.5rem;
+  width: 60%;
+}
+
+.cta {
+  background-color: var(--light);
+  border: none;
+  padding: 0.4rem 1rem;
+  font-weight: light;
+  font-family: "DM Serif Display";
+  letter-spacing: 0.05rem;
+  font-size: 1.2rem;
+  border-radius: 5px;
+}
+
+.cta > a {
+  text-decoration: none;
+  color: black;
+}
+
+.mockup {
+  width: 40vw;
+  border-radius: 10px;
+}
+
+/**/
+.testimonial {
+  text-align: left;
+  width: 30%;
+  margin: 0 auto;
+}
+
+.testimonial--text {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.01rem;
+}
+
+.testimonial--person {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.person--image {
+  border-radius: 50%;
+  height: 3.5rem;
+  width: 3.5rem;
+  overflow: hidden;
+  margin-right: 1rem;
+  background-color: #ffbbcc;
+}
+
+.testimonial--person__image {
+}
+
+.testimonial--person__identity {
+  margin: 0;
+}
+
+.testimonial--person__name {
+  margin: 0;
+  color: var(--light);
+}
+
+.testimonial--person__title {
+  margin-top: 0.2rem;
+  font-weight: 300;
+}
+
+.picture {
+  margin: 5rem auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  width: 85%;
+}
+
+.picture--image {
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
