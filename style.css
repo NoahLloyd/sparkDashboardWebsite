@@ -141,6 +141,7 @@ body {
   .title {
     margin-right: auto;
     margin-left: auto;
+    font-size: 4.5rem;
   }
   .title--explanation {
     margin-right: auto;
@@ -156,7 +157,9 @@ body {
 }
 
 @media only screen and (max-width: 1000px) {
-
+  .title {
+    font-size: 2.8rem;
+  }
 }
 
 

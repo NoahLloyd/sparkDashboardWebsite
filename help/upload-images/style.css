@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Roboto:wght@100;300;400;700;900&display=swap");
+
+:root {
+  --dark: #00002b;
+  --light: #f59e0b;
+  --white: white;
+  --black: black;
+}
+
+body {
+  background-color: var(--dark);
+  color: var(--white);
+  font-family: "Roboto", sans-serif;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.logo {
+  display: block;
+  text-align: center;
+}
+.title {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.thumbnail {
+    display: block;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.thumbnail > img {
+  width: 70%;
+}
+.intro {
+    font-size: 1.9rem;
+    width: 70%;
+    margin: 0 auto;
+}
+.subtitle {
+  text-align: left;
+  font-size: 2.2rem;
+  margin-top: 6rem;
+}
+
+.subtitle--step {
+  display: inline-block;
+  margin: 0;
+}
+.subtitle--explanation {
+    font-size: 1.7rem;
+}
+
+.list {
+    font-size: 1.4rem;
+    line-height: 1.5;
+}
